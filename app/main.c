@@ -9,7 +9,7 @@ int main()
     printf("Hello World!\n");
     float a, b, c, root1, root2;
     printf("a, b & c:\n");
-    scanf_s("%f %f %f", &a, &b, &c);
+    scanf("%f %f %f", &a, &b, &c);
 
 
     int roots = quEx(a, b, c, &root1, &root2);
