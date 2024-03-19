@@ -8,9 +8,13 @@ int main()
 {
     printf("Hello World!\n");
     float a, b, c, root1, root2;
+    int numItems;
     printf("a, b & c:\n");
-    scanf("%f %f %f", &a, &b, &c);
-
+    numItems = scanf("%f %f %f", &a, &b, &c);
+    if (numItems != 3) {
+        printf("Error: Invalid input\n");
+        return 1;
+    }
 
     int roots = quEx(a, b, c, &root1, &root2);
 
