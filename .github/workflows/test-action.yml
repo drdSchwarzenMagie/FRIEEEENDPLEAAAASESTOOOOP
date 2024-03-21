@@ -14,8 +14,8 @@ jobs:
       - run: qmake
       - run: make
       - run: ./tests/tests
-      - name: Coveralls GitHub Action        
-        uses: coverallsapp/github-action@v2.2.3     
+      - name: Coveralls
+        run: coveralls -t ${{ secrets.coveralls_token }} --root . -E ".*external.*" -E ".*tests.*"    
 
 
   sonarcloud-check:
