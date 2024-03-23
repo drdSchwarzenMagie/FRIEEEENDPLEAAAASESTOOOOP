@@ -15,9 +15,7 @@ jobs:
       - run: make
       - run: ./tests/tests
       - name: Coveralls
-        uses: coverallsapp/github-action@v2.2.3
-        with:   
-          github-token: ${{ secrets.coveralls_token }}
+        run: coveralls -t ${{ secrets.coveralls_token }} --root . -E ".*external.*" -E ".*tests.*"
 
   sonarcloud-check:
     needs: gtest-tests
