@@ -12,7 +12,7 @@ TEST(quExTest, positiveDiscriminant) {
     float a = 1, b = -3, c = 2;
     int roots = quEx(a, b, c, &root1, &root2);
     ASSERT_EQ(roots, 2);
-    ASSERT_FLOAT_EQ(root1, 3.0);
+    ASSERT_FLOAT_EQ(root1, 2.0);
     ASSERT_FLOAT_EQ(root2, 1.0);
 }
 
