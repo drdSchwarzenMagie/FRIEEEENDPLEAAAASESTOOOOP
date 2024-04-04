@@ -4,6 +4,7 @@
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=drdSchwarzenMagie_FRIEEEENDPLEAAAASESTOOOOP&metric=bugs)](https://sonarcloud.io/summary/new_code?id=drdSchwarzenMagie_FRIEEEENDPLEAAAASESTOOOOP)
 [![Code smells](https://sonarcloud.io/api/project_badges/measure?project=drdSchwarzenMagie_FRIEEEENDPLEAAAASESTOOOOP&metric=code_smells)](https://sonarcloud.io/dashboard?id=drdSchwarzenMagie_FRIEEEENDPLEAAAASESTOOOOP)
 
+
 # Пример работы связки Qt + Google Test (gtest) + QtCreator
 
 ## Загрузка и запуск примера на локальном компьютере
